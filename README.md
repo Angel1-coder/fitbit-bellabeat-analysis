@@ -44,4 +44,41 @@ This project analyzes smart device usage using **Fitbit tracker data** to genera
 ## 💡 Business Insights for Bellabeat
 
 - **Ad Timing**: Ads should be scheduled late Sunday night (~23:59) to catch Monday momentum
-- **User Behavior**: High activity early in the week suggests motivation cycles → tailor marketing to support and
+- **User Behavior**: High activity early in the week suggests motivation cycles → tailor marketing to support and engage at the right moments
+- **Target Segments**: Identify clusters of users based on activity and sleep cycles for product personalization
+
+---
+
+## 📈 Visualizations
+
+- Built using Tableau Public
+- Includes:
+  - Correlation matrix between activity metrics and calorie burn
+  - Daily step averages grouped by weekday
+  - Comparative plots of sleep duration and activity levels
+
+---
+
+## 🛠️ Tools & Tech Used
+
+- **Google Sheets** – early data cleaning & prep
+- **BigQuery (SQL)** – advanced queries, grouping, joining, aggregation
+- **Tableau** – dashboard and interactive visual analytics
+- *(Optional expansion)*: R/Python for deeper statistical modeling
+
+---
+
+## ✅ Conclusion
+
+This project highlights how data from wearable devices can be translated into valuable **marketing intelligence**. By aligning campaign timing and messaging with user behavior, Bellabeat can better engage with its audience and promote healthy habits effectively.
+
+---
+
+## 📌 Source
+Fitbit dataset originally published on Kaggle:  
+[Fitbit Fitness Tracker Data](https://www.kaggle.com/datasets/arashnic/fitbit)
+
+---
+
+## 📜 License
+This project is under the [MIT License](LICENSE).
