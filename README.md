@@ -60,6 +60,30 @@ This project analyzes smart device usage using **Fitbit tracker data** to genera
 
 ---
 
+
+### SQL Query for Average Steps by Weekday:
+To calculate the **average number of steps per weekday**, the following SQL query was used:
+
+sql
+WITH activity_data AS (
+  SELECT
+    DATE(ActivityDate) AS Date,
+    FORMAT_DATE('%A', DATE(ActivityDate)) AS Weekday,
+    AVG(TotalSteps) AS Average_Steps
+  FROM `Fitbit_Tracker_data.dailyActivity`
+  GROUP BY Date, Weekday
+)
+SELECT
+  Date,
+  Weekday,
+  Average_Steps
+FROM activity_data
+ORDER BY Weekday;
+
+This query groups Fitbit activity data by weekday and calculates the average number of steps taken for each day.
+
+---
+
 ## 🛠️ Tools & Tech Used
 
 - **Google Sheets** – early data cleaning & prep
