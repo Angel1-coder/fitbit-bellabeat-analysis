@@ -57,6 +57,9 @@ This project analyzes smart device usage using **Fitbit tracker data** to genera
   - Daily step averages grouped by weekday
   - Comparative plots of sleep duration and activity levels
 
+
+![Dashboard 1](https://github.com/YourUsername/YourRepositoryName/blob/main/Dashboard%201.png)
+
 ---
 
 ## 🛠️ Tools & Tech Used
