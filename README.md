@@ -35,8 +35,6 @@ This project analyzes smart device usage using **Fitbit tracker data** to genera
 ## 🔍 Key Findings
 
 - **Most Active Days**: Monday, Wednesday, and Saturday
-- **Calories & Activity**: Moderate positive correlation between total steps and calories burned
-- **Sleep & Activity**: Users tend to sleep more on less active days
 - **Weekly Behavior**: Consistent patterns in weekday vs weekend activity levels
 
 ---
@@ -45,7 +43,7 @@ This project analyzes smart device usage using **Fitbit tracker data** to genera
 
 - **Ad Timing**: Ads should be scheduled late Sunday night (~23:59) to catch Monday momentum
 - **User Behavior**: High activity early in the week suggests motivation cycles → tailor marketing to support and engage at the right moments
-- **Target Segments**: Identify clusters of users based on activity and sleep cycles for product personalization
+
 
 ---
 
@@ -53,7 +51,6 @@ This project analyzes smart device usage using **Fitbit tracker data** to genera
 
 - Built using Tableau Public
 - Includes:
-  - Correlation matrix between activity metrics and calorie burn
   - Daily step averages grouped by weekday
     
 
