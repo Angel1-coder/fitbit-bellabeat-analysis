@@ -55,7 +55,7 @@ This project analyzes smart device usage using **Fitbit tracker data** to genera
 - Includes:
   - Correlation matrix between activity metrics and calorie burn
   - Daily step averages grouped by weekday
-  - Comparative plots of sleep duration and activity levels
+    
 
 
 ![Dashboard 1](https://github.com/Angel1-coder/fitbit-bellabeat-analysis/blob/main/Dashboard%201.png)
@@ -68,7 +68,7 @@ This project analyzes smart device usage using **Fitbit tracker data** to genera
 - **Google Sheets** – early data cleaning & prep
 - **BigQuery (SQL)** – advanced queries, grouping, joining, aggregation
 - **Tableau** – dashboard and interactive visual analytics
-- *(Optional expansion)*: R/Python for deeper statistical modeling
+  
 
 ---
 
